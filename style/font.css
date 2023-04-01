@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Regular/Roboto-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Regular/Roboto-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Regular/Roboto-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-SemiBold.ttf');
+    font-weight: 600;
+}
