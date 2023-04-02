@@ -411,4 +411,32 @@ body {
     transition: 0.4s;
 }
 
+.news {
+    margin-bottom: 95px;
+}
+
+.news_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.news_item-img {
+    margin-bottom: 15px;
+}
+
+.news_item-title {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.news_item-subtitle {
+    color: var(--secondText);
+    font-size: 16px;
+    line-height: 160%;
+}
+
 /* main */
