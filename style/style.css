@@ -440,3 +440,37 @@ body {
 }
 
 /* main */
+
+/* footer */
+.footer {
+    padding: 95px 0;
+    background: #0B0706;
+}
+
+.footer .container {
+    display: grid;
+    grid-template-columns: 105px 365px 545px;
+    justify-content: space-between;
+}
+
+.footer_lists {
+    display: flex;
+    align-items: center;
+    max-width: 365px;
+    justify-content: space-between;
+}
+
+.footer_link {
+    color: var(--offWhite);
+    opacity: 0.78;
+    font-size: 14px;
+    line-height: 160%;
+    padding-bottom: 25px;
+    display: inline-block;
+}
+
+.footer_link:nth-la {
+    padding-bottom: 0px;
+}
+
+/* footer */
