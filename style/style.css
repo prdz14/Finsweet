@@ -294,4 +294,83 @@ body {
     line-height: 19px;
 }
 
+.stats {
+    background: #0B0706;
+    padding: 95px 0;
+}
+
+.stat {
+    color: var(--offWhite);
+}
+
+.stats_subtitle {
+    color: var(--offWhite);
+    opacity: 0.6;
+    padding-bottom: 32px;
+}
+
+.stats_txt-block {
+    max-width: 610px;
+}
+
+.stats_item-color {
+    background: #BEF3C0;
+    border-radius: 4px;
+    width: 15px;
+    height: 15px;
+}
+
+.stats_item {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.stats_color-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--offWhite);
+}
+
+.stats_item-color2 {
+    background: #AC94F1;
+    border-radius: 4px;
+    width: 15px;
+    height: 15px;
+}
+
+.stats_item-color3 {
+    background: #FFF0CA;
+    border-radius: 4px;
+    width: 15px;
+    height: 15px;
+}
+
+.stats_item-color4 {
+    background: #F9CF64;
+    border-radius: 4px;
+    width: 15px;
+    height: 15px;
+}
+
+.stats_item-color5 {
+    background: #F38FBF;
+    border-radius: 4px;
+    width: 15px;
+    height: 15px;
+}
+
+.stats_items {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.stats .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 /* main */
