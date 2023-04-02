@@ -43,7 +43,7 @@ body {
 .nav .container {
     display: flex;
     align-items: center;
-    padding: 20px 0;
+    padding: 20px;
     justify-content: space-between;
 }
 
@@ -254,15 +254,17 @@ body {
 
 .project_item {
     background: url('../img/project1.png')no-repeat center / cover;
+    border-radius: 12px;
 }
 
 .project_item:nth-of-type(2) {
     background: url('../img/project2.png')no-repeat center / cover;
+    border-radius: 12px;
 }
 
 .project_item:nth-of-type(3) {
     background: url('../img/project3.png')no-repeat center / cover;
-
+    border-radius: 12px;
 }
 
 .project_item-txt-block {
@@ -452,73 +454,58 @@ body {
 }
 
 .footer .container {
-    display: grid;
-    grid-template-columns: 105px 365px 545px;
+    display: flex;
     justify-content: space-between;
 }
 
-.footer_lists {
-    display: flex;
-    align-items: center;
-    max-width: 365px;
-    justify-content: space-between;
-}
-
-.footer_link {
+.footer span {
     color: var(--offWhite);
-    opacity: 0.78;
-    font-size: 14px;
-    line-height: 160%;
-    padding-bottom: 25px;
-    display: inline-block;
-    transition: 0.4s;
-}
-
-.footer_link:hover {
-    opacity: 1;
-    transition: 0.4s;
-}
-
-.footer_inputs-title {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 140%;
-    color: var(--offWhite);
-    padding-bottom: 32px;
-}
-
-.footer_inp {
-    padding: 22px 220px 23px 24px;
-    outline: none;
-    background: none;
-    border: 1px solid #EBF0F94D;
-    font-size: 16px;
-    line-height: 19px;
-    color: rgba(235, 240, 249, 0.3);
-    opacity: 0.8;
-}
-
-.footer_inp::placeholder {
-    font-size: 16px;
-    line-height: 19px;
-    color: rgba(235, 240, 249, 0.3);
-    opacity: 0.8;
-}
-
-.footer_form {
-    display: flex;
-    max-width: 545px;
-}
-
-.footer_btn {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    padding: 23px 32px;
-    background: var(--offWhite);
-    backdrop-filter: blur(40px);
-    outline: none;
-    border: none;
 }
 
 /* footer */
+
+.media {
+    display: none;
+}
+
+.line {
+    width: 16px;
+    height: 2px;
+    background: var(--black);
+}
+
+.burger {
+    gap: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.active {
+    display: none;
+}
+
+.dropdown_link {
+    color: var(--secondText);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 20px;
+    display: inline-block;
+    width: 100%;
+    transition: 0.4s;
+}
+
+.dropdown_link:hover {
+    background: var(--black);
+    color: var(--offWhite);
+    transition: 0.4s;
+}
+
+.dropdown {
+    position: absolute;
+    right: -200px;
+    top: 69px;
+    background: var(--offWhite);
+    width: 200px;
+    transition: 0.4s;
+}
