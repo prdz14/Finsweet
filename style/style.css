@@ -373,4 +373,42 @@ body {
     justify-content: space-between;
 }
 
+.cta {
+    background: url('../img/cta_bckg.png')no-repeat center;
+    margin: 95px 0;
+    padding: 93px 324px 92px 325px;
+    border-radius: 12px;
+}
+
+.cta_title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: var(--offWhite);
+    padding-bottom: 32px;
+}
+
+.cta_links {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    justify-content: center;
+}
+
+.cta_link {
+    padding: 16px 32px;
+    background: var(--offWhite);
+    display: inline;
+    color: var(--black);
+    border-radius: 4px;
+    transition: 0.4s;
+}
+
+.cta_link:hover {
+    background: var(--greenPrime);
+    color: var(--offWhite);
+    transition: 0.4s;
+}
+
 /* main */
